@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+font-family: "Montserrat";
+}
+
+.card-img-top {
+    height: 500px; /* Adjust this value as needed */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    transition-property:all;
+    transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
+    /* transition-timing-function:ease-in-out; */
+    transition-duration: 0.7s;
+}
+.card {
+    margin-bottom:auto; /* Adds space between rows of cards */
+}
+.card-img-top:hover{
+  height: 550px;
+  
+}
